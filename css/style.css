@@ -1,0 +1,90 @@
+.container{
+	padding:50px;
+	background: #ffff;
+	width:960px;
+	margin:0 auto;
+}
+
+
+
+body {
+	background: #FFD700;
+}
+
+p {
+	font-family: cursive;
+	font-size: 24pt;
+}
+
+.more_link:hover {
+	color:#fff;
+	background: #000;
+}
+
+.more_link{
+	padding:1px 15px;
+	border: 1px double black;
+}
+
+a {
+	transition: 1s;
+	background: #FFD700;
+	color:black;
+	font-family: fantasy;
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+img {
+	width: 823px;
+}
+
+h1 {
+	font-family: cursive;
+}
+
+q {
+	font-family: cursive;
+	font-size: 10px;
+}
+
+.menu__link {
+	border: 1px double black;
+	padding:1px 15px;
+	margin-right:10px;
+	transition: 1s;
+}
+
+.menu__link:hover {
+	padding: 5px 50px;
+}
+
+.profile_items{
+	list-style: none;
+	font-size: 25px;
+}
+
+
+.lir{
+	transform: 0.5s;
+	display:inline;
+	margin-right: 10px;
+	padding:3px 5px;
+}
+
+.lir:hover{
+	background: #f00;
+	color:#fff;
+}
+
+.avatar{
+	height: 300px;
+	width:300px;
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 576px){
+	.menu__link {
+	font-size: 45px;
+	}
+}	
