@@ -87,4 +87,11 @@ q {
 	.menu__link {
 	font-size: 45px;
 	}
+}
+
+
+@media screen and (max-width: 576px){
+	.li {
+	font-size: 45px;
+	}
 }	
